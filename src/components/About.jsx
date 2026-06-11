@@ -3,18 +3,9 @@ import reactImage from '../assets/about/react.png';
 import nodeImage from '../assets/about/node.png';
 import mongoImage from '../assets/about/mongodb.png';
 
-const milestones = [
-  { year: '2021', event: 'Started freelancing as a full-stack developer' },
-  { year: '2022', event: 'Built first major e-commerce platform' },
-  { year: '2023', event: 'Expanded into AI-powered applications' },
-  { year: '2024', event: 'Delivered 30+ projects globally' },
-  { year: '2025', event: 'Founded Yahya_Ayz Studio' },
-]
-
 const About = () => {
   return (
-    <>
-      <section className="bg-[#ff2a2a] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
+    <section className="bg-[#ff2a2a] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-start">
           
           <div className="flex flex-col items-center w-full md:w-[350px] shrink-0 mt-12 md:mt-0">
@@ -100,50 +91,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Milestones section */}
-      <section className="bg-white py-24 px-6 md:px-12 w-full">
-        <div className="max-w-4xl mx-auto">
-          <div data-aos="fade-up" className="text-center mb-16">
-            <span className="text-[#ff2a2a] font-bold text-sm tracking-widest uppercase">Journey</span>
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mt-4">My Milestones</h2>
-          </div>
-
-          <div className="relative">
-            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gray-200 transform md:-translate-x-1/2" />
-
-            {milestones.map((m, i) => (
-              <div
-                key={m.year}
-                data-aos={i % 2 === 0 ? 'fade-right' : 'fade-left'}
-                className={`relative flex items-start gap-8 mb-12 ${
-                  i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                }`}
-              >
-                <div className={`flex-1 ${i % 2 === 0 ? 'md:text-right' : 'md:text-left'} hidden md:block`}>
-                  <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                    <span className="text-[#ff2a2a] font-black text-lg">{m.year}</span>
-                    <p className="text-gray-600 mt-2 font-medium">{m.event}</p>
-                  </div>
-                </div>
-
-                <div className="relative z-10 flex-shrink-0">
-                  <div className="w-8 h-8 bg-[#ff2a2a] rounded-full border-4 border-white shadow-md flex items-center justify-center">
-                    <div className="w-2 h-2 bg-white rounded-full" />
-                  </div>
-                </div>
-
-                <div className={`flex-1 md:hidden`}>
-                  <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                    <span className="text-[#ff2a2a] font-black text-lg">{m.year}</span>
-                    <p className="text-gray-600 mt-2 font-medium">{m.event}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    </>
   );
 };
 
