@@ -77,7 +77,7 @@ const About = () => {
             </div>
 
             <div className="flex flex-wrap gap-3">
-              {['React', 'Node.js', 'MongoDB', 'TypeScript', 'Tailwind', 'Next.js', 'Express'].map((tech) => (
+              {['React', 'Node.js', 'Laravel', 'MongoDB', 'Tailwind', 'Next.js', 'Stripe'].map((tech) => (
                 <span key={tech} className="px-4 py-2 text-xs font-bold bg-black/20 text-white rounded-full border border-white/20">
                   {tech}
                 </span>
