@@ -10,7 +10,7 @@ import ContactPage from './pages/ContactPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Modern-Portofolio">
       <Preloader />
       <Navbar />
       <Routes>

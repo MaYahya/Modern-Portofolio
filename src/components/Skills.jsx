@@ -84,7 +84,6 @@ const skillsData = [
   { name: 'Tailwind CSS', level: 'Advanced', years: '3+', category: 'Frontend' },
   { name: 'Next.js', level: 'Intermediate', years: '2+', category: 'Frontend' },
   { name: 'Stripe', level: 'Intermediate', years: '2+', category: 'Payments' },
-  { name: 'PayPal', level: 'Intermediate', years: '2+', category: 'Payments' },
   { name: 'Docker', level: 'Intermediate', years: '2+', category: 'DevOps' },
   { name: 'Git', level: 'Intermediate', years: '3+', category: 'Tools' },
   { name: 'Figma', level: 'Intermediate', years: '2+', category: 'Design' },
