@@ -29,16 +29,10 @@ const Contact = () => {
           data-aos="fade-up"
           className="bg-[#ff2a2a] w-full md:w-[85%] lg:w-[75%] p-8 md:p-16 text-white flex flex-col justify-between"
         >
-          <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-12 md:mb-20">
+          <div className="mb-12 md:mb-20">
             <div className="text-xs font-bold tracking-[0.2em] uppercase opacity-90">
               Reach Us
             </div>
-            <a 
-              href="mailto:killerjr98518@gmail.com"
-              className="text-sm md:text-base font-bold underline underline-offset-4 hover:text-black transition-colors"
-            >
-              killerjr98518@gmail.com
-            </a>
           </div>
 
           <form 
