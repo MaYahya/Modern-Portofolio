@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         
         <div className="flex flex-col gap-1 md:items-center">
-          <a href="mailto:killerjr98618@gmail.com" className="underline hover:text-white transition-colors underline-offset-4 decoration-1 lowercase">killerjr98618@gmail.com</a>
+          <a href="mailto:killerjr98518@gmail.com" className="underline hover:text-white transition-colors underline-offset-4 decoration-1 lowercase">killerjr98518@gmail.com</a>
         </div>
         
         <div className="flex flex-col gap-1 md:items-end">
